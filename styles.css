@@ -10,6 +10,13 @@ body {
   color: #FEF2BF;
 }
 
+#buttonText {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin: 15%;
+  color: #e7e7e7;
+}
+
 .container {
   display: block;
   width: 50%;
@@ -23,6 +30,15 @@ body {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+}
+
+.playBtn {
+  margin: 25px;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 12%;
 }
 
 .game-over {
@@ -44,6 +60,10 @@ body {
 
 .yellow {
   background-color: yellow;
+}
+
+.play {
+  background-color: rgb(175, 162, 162);
 }
 
 .pressed {
