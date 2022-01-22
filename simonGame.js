@@ -58,7 +58,6 @@ function listenToButtonClicks() {
         animatePress(userChosenColour);
         userClickedPattern.push(userChosenColour);
         playSound(userChosenColour);
-        console.log(userClickedPattern);
         checkInput(userClickedPattern.length - 1);
     });
 }
@@ -70,7 +69,6 @@ function playSound(name) {
 
 function checkInput(currentLevel) {
     if (userClickedPattern[currentLevel] == gamePattern[currentLevel]) {
-        console.log("success");
 
         if (userClickedPattern.length == gamePattern.length) {
             setTimeout(function () {
