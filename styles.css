@@ -6,7 +6,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin: 5%;
+  margin: 3%;
   color: #FEF2BF;
 }
 
@@ -48,25 +48,49 @@ body {
 
 .red {
   background-color: red;
+  box-shadow: 10px -10px 10px  rgb(73, 73, 73);
+}
+
+.red-pressed {
+  background-color: rgb(255, 131, 179);
+  box-shadow: 0 0 20px rgb(255, 103, 103);
 }
 
 .green {
   background-color: green;
+  box-shadow: -10px -10px 10px  rgb(73, 73, 73);
+}
+
+.green-pressed {
+  background-color: rgb(81, 250, 81);
+  box-shadow: 0 0 20px rgb(72, 255, 66);
 }
 
 .blue {
   background-color: blue;
+  box-shadow: 10px 10px 10px  rgb(73, 73, 73);
+}
+
+.blue-pressed {
+  background-color: rgb(57, 176, 255);
+  box-shadow: 0 0 20px rgb(90, 230, 255);
 }
 
 .yellow {
   background-color: yellow;
+  box-shadow: -10px 10px 10px  rgb(73, 73, 73);
+}
+
+.yellow-pressed {
+  background-color: rgb(253, 255, 116);
+  box-shadow: 0 0 20px rgb(255, 254, 178);
 }
 
 .play {
   background-color: rgb(175, 162, 162);
 }
 
-.pressed {
+.play-pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
